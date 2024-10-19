@@ -1,6 +1,6 @@
 {
   "last_node_id": 21,
-  "last_link_id": 27,
+  "last_link_id": 28,
   "nodes": [
     {
       "id": 17,
@@ -147,7 +147,7 @@
         {
           "name": "audio",
           "type": "AUDIO",
-          "link": null,
+          "link": 28,
           "shape": 7
         },
         {
@@ -243,7 +243,10 @@
         {
           "name": "audio",
           "type": "AUDIO",
-          "links": null
+          "links": [
+            28
+          ],
+          "slot_index": 2
         },
         {
           "name": "video_info",
@@ -321,16 +324,24 @@
       12,
       0,
       "IMAGE"
+    ],
+    [
+      28,
+      21,
+      2,
+      12,
+      1,
+      "AUDIO"
     ]
   ],
   "groups": [],
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5644739300537776,
+      "scale": 0.7513148009015781,
       "offset": [
-        78.31227424411613,
-        333.35037597450685
+        -199.68171675588383,
+        165.05607397450672
       ]
     }
   },
